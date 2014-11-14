@@ -4,7 +4,7 @@ SunSetUtility
 A Simple utility that can be added to your iOS project that allows you to notify users that you are shutting down this app.  You can refer users to a different app if you like.  You can also stage the rollout with a cancel button that allows users to keep using the app.  Then you can set a switch to only allow download of the new app.
 
 
-1. Add The SunSet Utility files to your project or install with Cocoapods
+1. Add The SunSet Utility files to your project
 2. `#import` the `SunSetUtility.h` file in your `ApplicationDelegate.m`
 3. In the `AppDelegate.m` add the call `[SunSetUtility RunSunSet];` to the  `- (void)applicationDidBecomeActive:(UIApplication *)application` method.
 4. Set your options in the `SunSetUtilityConfiguration.m`
